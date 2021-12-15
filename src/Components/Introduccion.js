@@ -2,10 +2,10 @@ import GoldenLuxlogo from '../img/GOLDEN LUX 1.png'
 import RealEstatelogo from '../img/GOLDEN LUX REAL ESTATE.png'
 import HomeStanginglogo from '../img/HOME & OFFICE STANGING.png'
 import InteriorDesinglogo from '../img/GOLDEN LUX INTERIOR DESING.png'
-import RedesSocialeslogo from '../img/REDES SOCIALES.png'
-import Rectangulo from '../img/RECTANGULO 2.png'
 
 import { Col, Container, Row} from "react-bootstrap";
+
+import { LinkContainer } from 'react-router-bootstrap';
 
 function Introduccion(){
     return(
@@ -30,13 +30,6 @@ function Introduccion(){
                 <Col md="4">
                     <img src={InteriorDesinglogo} class="img-fluid" alt="Desing" width="150em" height="150em"/>
                 </Col>
-            </Row>
-
-            <Row className="text-center mx-auto" style={{marginTop: "2em"}}>
-                <div className="card-body" style={{backgroundColor: "transparent"}} width="150em" height="150em">
-                    <img src={RedesSocialeslogo} alt="Redes sociales" width="150em" height="45em"/>
-                </div>
-                <img src={Rectangulo} className="img-fluid" alt="Rectangulo" width="150em" height="150em"/>
             </Row>
         </div>
     );
