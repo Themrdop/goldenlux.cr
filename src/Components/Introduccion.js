@@ -5,6 +5,8 @@ import InteriorDesinglogo from '../img/GOLDEN LUX INTERIOR DESING.png'
 
 import { Col, Container, Row} from "react-bootstrap";
 
+import { LinkContainer } from 'react-router-bootstrap';
+
 function Introduccion(){
     return(
         <div>
@@ -18,15 +20,21 @@ function Introduccion(){
 
             <Row className="text-center mx-auto" style={{width: "30em"}}>
                 <Col md="4">
-                    <img src={RealEstatelogo} class="img-fluid" alt="Real state" width="150em" height="150em"/>
+                    <LinkContainer to="/test">
+                        <img src={RealEstatelogo} class="img-fluid" alt="Real state" width="150em" height="150em"/>
+                    </LinkContainer>
                 </Col>
 
                 <Col md="4">
-                    <img src={HomeStanginglogo} class="img-fluid" alt="Home staging" width="150em" height="150em"/>
+                    <LinkContainer to="/test">
+                        <img src={HomeStanginglogo} class="img-fluid" alt="Home staging" width="150em" height="150em"/>
+                    </LinkContainer>
                 </Col>
 
                 <Col md="4">
-                    <img src={InteriorDesinglogo} class="img-fluid" alt="Desing" width="150em" height="150em"/>
+                    <LinkContainer to="/test">
+                        <img src={InteriorDesinglogo} class="img-fluid" alt="Desing" width="150em" height="150em"/>
+                    </LinkContainer>
                 </Col>
             </Row>
         </div>
