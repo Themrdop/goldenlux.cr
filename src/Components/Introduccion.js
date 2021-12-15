@@ -5,8 +5,6 @@ import InteriorDesinglogo from '../img/GOLDEN LUX INTERIOR DESING.png'
 
 import { Col, Container, Row} from "react-bootstrap";
 
-import { LinkContainer } from 'react-router-bootstrap';
-
 function Introduccion(){
     return(
         <div>
