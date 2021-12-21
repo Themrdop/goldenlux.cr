@@ -13,7 +13,8 @@ function NavBar(){
         <div style={BackgroundStyle}>
             <Navbar className="navbar-expand-md navbar-dark" bg="" expand="lg" variant="dark">
                 <Container>
-                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav" >
                         <Nav
                             className="me-auto nav-links justify-content-beging"
                             style={{ width: "100%" }}>

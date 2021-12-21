@@ -19,13 +19,13 @@ function Introduccion(){
             </Container>
 
             <Row className="text-center mx-auto" style={{width: "30em"}}>
-                <Col md="4">
+                <Col md="4" style={{marginBottom:"1em"}}>
                     <LinkContainer to="/test">
                         <img src={RealEstatelogo} class="img-fluid" alt="Real state" width="150em" height="150em"/>
                     </LinkContainer>
                 </Col>
 
-                <Col md="4">
+                <Col md="4" style={{marginBottom:"1em"}}>
                     <LinkContainer to="/test">
                         <img src={HomeStanginglogo} class="img-fluid" alt="Home staging" width="150em" height="150em"/>
                     </LinkContainer>
