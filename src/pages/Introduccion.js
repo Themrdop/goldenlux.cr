@@ -17,23 +17,23 @@ function Introduccion(){
                 </div>
             </Container>
 
-            <Container>
-                <Row className="text-center mx-auto">
-                    <Col md="4" style={{marginBottom:"1em"}}>
+            <Container style={{paddingLeft:"11em", paddingRight:"11em"}}>
+                <Row className="text-center mx-auto" style={{marginTop:"2em"}}>
+                    <Col md="4" style={{marginBottom:"1em"}} >
                         <LinkContainer to="/test">
-                            <img id='RealEstatelogo' src={RealEstatelogo} class="img-fluid" alt="Real state" width="150em" height="150em"/>
+                            <img id='RealEstatelogo' src={RealEstatelogo} className='grow img-fluid' alt="Real state" width="150em" height="150em"/>
                         </LinkContainer>
                     </Col>
 
                     <Col md="4" style={{marginBottom:"1em"}}>
                         <LinkContainer to="/test">
-                            <img id='HomeStanginglogo' src={HomeStanginglogo} class="img-fluid" alt="Home staging" width="150em" height="150em"/>
+                            <img id='HomeStanginglogo' src={HomeStanginglogo} className='grow img-fluid' alt="Home staging" width="150em" height="150em"/>
                         </LinkContainer>
                     </Col>
 
                     <Col md="4">
                         <LinkContainer to="/test">
-                            <img id='InteriorDesinglogo' src={InteriorDesinglogo} class="img-fluid" alt="Desing" width="150em" height="150em"/>
+                            <img id='InteriorDesinglogo' src={InteriorDesinglogo} className='grow img-fluid' alt="Desing" width="150em" height="150em"/>
                         </LinkContainer>
                     </Col>
                 </Row>
