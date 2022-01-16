@@ -1,20 +1,22 @@
 import NavBar from './Components/NavBar';
-import Introduccion from './Components/Introduccion';
+import Introduccion from './pages/Introduccion';
 import Footer from './Components/Footer';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Test from "./Components/Test";
+import { Switch, Route } from 'react-router-dom';
+import Test from "./pages/Test";
 
 
 function App() {
   return (
     <div>
-      <Router>
         <NavBar />
         <Switch>
-          <Route path="/" exact component={Introduccion} />
-          <Route path="/Test" component={Test} />
+          <Route path="/" exact >
+            <Introduccion/>
+          </Route>
+          <Route path="/Test">
+            <Test/>
+          </Route>
         </Switch>
-      </Router>
       <Footer/>
     </div>
   );
